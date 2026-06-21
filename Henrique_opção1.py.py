@@ -76,7 +76,7 @@ while True:
         '''
         escolha = int(input("\nDigite o número do item a remover: "))
         item_removido = pedido.pop(escolha - 1)  # Remove e guarda o item
-        print(f"✅ {item_removido[0]} removido do pedido!")
+        print(f" {item_removido[0]} removido do pedido!")
 
 # ==== BLOCO PARA EXIBIR LISTA DE PEDIDOS ==== 
 
@@ -101,12 +101,12 @@ while True:
         for item in pedido:
                 total += item[1]
             
-        print(f"💰 TOTAL A PAGAR: R${total}")
+        print(f" TOTAL A PAGAR: R${total}")
         print("="*40 + "\n")
         
     elif opcao == "6":
-            print("\n👋 Obrigado por usar nosso sistema! Até logo!\n")
+            print("\n Obrigado por usar nosso sistema! Até logo!\n")
             break  # Sai do laço while
         
     else:
-        print("❌ Opção inválida! Digite de 1 a 6.")
+        print("Opção inválida! Digite de 1 a 6.")
